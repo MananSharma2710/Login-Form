@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body,form, section{
+    block-size: 100%;
+}
+section{
+    display: flex;
+    font-size: 2.5em;
+    justify-content: center;
+}
+.empty{
+    width: 100%;
+    block-size: 100%;
+    background-color: #008cff;
+}
+.field{
+    margin-left: 20%;
+}
+::placeholder{
+    color: #ffffff;
+}
+input[type="date"], input[type="text"],input[type="email"],input[type="password"]{
+    background-color: #008cff;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.container1{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.5fr 2fr;
+    column-gap: 10px;
+}
+.button{
+    background-color: #008cff;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
